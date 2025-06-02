@@ -115,7 +115,7 @@ while char != '*':
     if rp2 > 25:
         rp2 = 0
         rp3 += 1
-    print("rp1", rp1)
+    
     scramble(char, rp1, rp2, rp3)
     char = input()
 
